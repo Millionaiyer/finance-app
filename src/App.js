@@ -1,9 +1,7 @@
-function App() {
-  return (
-    <div>
-      <h2>Let's get started!</h2>
-    </div>
-  );
+import Expenses from './Components/Expenses';
+
+function App(props) {
+  return <Expenses expenses={props.expenses} />;
 }
 
 export default App;
